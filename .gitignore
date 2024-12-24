@@ -160,3 +160,19 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+
+# Ignore the entire tutorials directory
+tutorials/
+
+# Ignore all contents of src/img/inputs but keep the directory
+src/img/inputs/*
+!src/img/inputs/.gitkeep
+
+# Ignore all contents of src/img/outputs but keep the directory
+src/img/outputs/*
+!src/img/outputs/.gitkeep
+
+# Ignore all contents of src/result/json but keep the directory
+src/result/json/*
+!src/result/json/.gitkeep
